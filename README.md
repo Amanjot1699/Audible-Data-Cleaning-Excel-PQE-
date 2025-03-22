@@ -1,29 +1,27 @@
-#Audible Data Cleaning Project
+# Audible Data Cleaning Project
 
-Overview
-This project focuses on cleaning and standardizing the Audible dataset using Excel Power Query Editor. The objective is to ensure data consistency and accuracy for future analysis, enabling better decision-making related to pricing, content availability, and customer satisfaction.
+## Project Description / Problem Statement
+Audible's dataset contains inconsistencies in formatting, missing values, and unstructured data that hinder effective analysis. This project focuses on cleaning and standardizing the dataset using Power Query Editor in Excel. The objective is to ensure data accuracy, consistency, and readiness for further analysis by transforming key columns such as book title, author, release date, duration, price, and ratings.
 
-Project Goals
-Clean and standardize the dataset for analysis.
-Utilize Excel Power Query to enhance data quality.
-Prepare the dataset for insights into Audible's offerings.
-Key Tasks
-Data Cleaning:
+## Project Objectives
+- Standardize book titles to maintain consistency in naming conventions.
+- Separate and structure author names for better readability.
+- Convert the release date into a uniform date format.
+- Transform duration values into a proper time format for better calculations.
+- Ensure price data is in numeric format for accurate financial analysis.
+- Extract and format ratings to separate numerical ratings and the number of reviews.
+- Merge or split relevant columns to improve data structure.
 
-Standardized author names and ensured consistent date formats.
-Converted text-based time durations into numeric values.
-Data Transformation:
+## Tools and Techniques Used
+- **Power Query Editor (Excel)** for data cleaning and transformation.
+- **Data Type Standardization** to ensure consistency in date, numeric, and text fields.
+- **Custom Column Formulas** to extract, modify, and transform data values.
+- **Text and String Functions** to manipulate names, ratings, and price values.
+- **Splitting and Merging Columns** to restructure data effectively.
 
-Created custom columns in Power Query to split combined data and standardize ratings and pricing.
-Merged relevant columns to streamline the dataset.
-Data Preparation:
+## Project Impact
+- Improved data quality, making it easier to analyze trends in audiobook pricing, popularity, and customer preferences.
+- Structured and standardized dataset, allowing for seamless integration with further analytical tools.
+- Enhanced efficiency in data processing by automating repetitive cleaning tasks using Power Query.
+- Reliable and consistent data that can be used for deriving meaningful business insights.
 
-Ensured the dataset is ready for analysis by removing errors and inconsistencies.
-Tools Used
-Excel Power Query Editor: For data cleaning, transformation, and preparation.
-Microsoft Excel: For data manipulation and visualization.
-Conclusion
-This project has significantly enhanced my skills in data cleaning and transformation using Excel Power Query. I am thankful for the mentorship and guidance from Ayushi Jain at WsCube Tech, which helped me through this learning journey.
-
-Acknowledgments
-WsCube Tech: For providing the resources and mentorship throughout this project.
